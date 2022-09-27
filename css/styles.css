@@ -1,11 +1,11 @@
 :root {
-  --color-text-primary: #21243D;
-  --color-text-secondary: #636B78;
-  --color-view-all-link: #00A8CC;
+  --color-text-primary: #21243d;
+  --color-text-secondary: #636b78;
+  --color-view-all-link: #00a8cc;
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: var(--color-text-primary);
   font-size: 18px;
   font-weight: 400;
@@ -15,6 +15,10 @@ body {
 .link {
   color: var(--color-text-primary);
   text-decoration: none;
+}
+
+.list {
+  list-style: none;
 }
 
 .link:hover {
@@ -31,10 +35,10 @@ body {
 
 .hero-link {
   padding: 3px 28px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 600;
   font-size: 40px;
-  background-color: #FF6464;
+  background-color: #ff6464;
   text-decoration: none;
   border-radius: 4px;
 }
@@ -43,14 +47,14 @@ body {
   box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-.hero-link:active{
+.hero-link:active {
   box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .section-title {
   font-weight: 600;
-    font-size: 24px;
-    line-height: 40px;
+  font-size: 24px;
+  line-height: 40px;
 }
 
 .view-all-link {
@@ -58,7 +62,6 @@ body {
   font-weight: 600;
   line-height: 40px;
   text-decoration: none;
-
 }
 
 .view-all-link:hover {
@@ -66,17 +69,17 @@ body {
 }
 
 .post-title {
-   font-weight: 600;
-    font-size: 28px;
-    line-height: 1.5;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.5;
 }
 
 .post-date {
-    color: var(--color-text-secondary);
-    font-weight: 500;
-    font-size: 16px;
+  color: var(--color-text-secondary);
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .recent-post-section {
-    background: #EDF7FA;
+  background: #edf7fa;
 }
