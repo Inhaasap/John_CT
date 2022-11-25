@@ -16,30 +16,36 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html">
+    <header class="header">
+      <nav class="header__nav">
+        <a class="header__link" href="./index.html">
           <img src="./images/Left.svg" alt="logo of John blog" />
         </a>
-        <ul class="list list">
-          <li><a class="link" href="./work.html">Work</a></li>
-          <li><a class="link" href="./Blog.html">Blog</a></li>
-          <li><a class="link" href="#">Contact</a></li>
+        <ul class="navigation__list list">
+          <li class="navigation__item">
+            <a class="navigation__link" href="./work.html">Work</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="./Blog.html">Blog</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">Contact</a>
+          </li>
         </ul>
       </nav>
     </header>
     <!-- hero section -->
     <main>
-      <section>
-        <h1 class="hero-title">
+      <section class="hero">
+        <h1 class="hero__title">
           Hi, I’m John! <br />
           Creative Technologist
         </h1>
-        <p>
+        <p class="hero__text">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia consequat duis enim velit mollit. Exercitation
           veniam consequat sunt nostrud ame
-          <a class="hero-link" href="./work.html">Check my Work</a>
+          <a class="hero__link" href="./work.html">Check my Work</a>
           <img
             src="./images/hero-john-image.jpg"
             alt="John portraite"
@@ -47,65 +53,64 @@
             height="243"
           />
         </p>
-        <!-- resent post section -->
       </section>
-      <section class="recent-post-section">
-        <h2 class="section-title">Recent Posts</h2>
-        <a class="view-all-link" href="./blog.html">View all</a>
-        <ul class="recent-post-list list">
-          <li>
-            <article>
-              <h3 class="post-title">Post Title</h3>
-              <p class="post-date">
+      <!-- recent post section -->
+      <section class="post">
+        <h2 class="post__title">Recent Posts</h2>
+        <a class="post__link" href="./blog.html">View all</a>
+        <ul class="post__list list">
+          <li class="post__item">
+            <article class="article">
+              <h3 class="article__title">Post Title</h3>
+              <p class="article__date">
                 <time datetime="2021-02-12">12 Feb 21</time> | Design System
               </p>
-              <p>
+              <p class="article__text">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
                 Exercitation veniam consequat sunt nostrud amet.
               </p>
             </article>
           </li>
-          <li>
-            <article>
-              <h3 class="post-title">Post Title</h3>
-              <p class="post-date">
+          <li class="post__item">
+            <article class="article">
+              <h3 class="article__title">Post Title</h3>
+              <p class="article__date">
                 <time datetime="2021-02-12">12 Feb 21</time> | Design System
               </p>
-              <p>
+              <p class="article__text">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
                 Exercitation veniam consequat sunt nostrud amet.
               </p>
             </article>
           </li>
-        </ul>
       </section>
       <!-- featured works section -->
-      <section>
-        <h2>Featured Work</h2>
-        <a href="./blog.html">View all</a>
-        <ul>
-          <li>
-            <article>
+      <section class="features">
+        <h2 class="features__title" >Featured Work</h2>
+        <a class="features__link" href="./blog.html">View all</a>
+        <ul class="features__list">
+          <li class="features__item">
+            <article class="features-article">
               <img src="./images/dashboards.jpg" alt="фото екрану комютера" />
-              <h3>Designing Dashboards</h3>
-              <p>2020</p>
-              <p>Dashboard</p>
-              <p>
+              <h3 class="features-article__title">Designing Dashboards</h3>
+              <p class="features-article__date">2020</p>
+              <p class="features-article__subtitle">Dashboard</p>
+              <p class="features-article__text">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
                 Exercitation veniam consequat sunt nostrud amet.
               </p>
             </article>
           </li>
-          <li>
-            <article>
-              <img src="./images/portraits.jpg" alt="фото екрану комютера" />
-              <h3>Vibrant Portraits</h3>
-              <p>2018</p>
-              <p>Illustration</p>
-              <p>
+           <li class="features__item">
+            <article class="features-article">
+              <img src="./images/dashboards.jpg" alt="фото екрану комютера" />
+              <h3 class="features-article__title">Designing Dashboards</h3>
+              <p class="features-article__date">2020</p>
+              <p class="features-article__subtitle">Dashboard</p>
+              <p class="features-article__text">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
                 Exercitation veniam consequat sunt nostrud amet.
@@ -116,21 +121,21 @@
       </section>
     </main>
     <!-- footer -->
-    <footer>
-      <address>
-        <ul class="footer-list list">
-          <li>
-            <a href="#">
+    <footer class="footer">
+      <address class="footer__address">
+        <ul class="footer__list list">
+          <li class="footer__item">
+            <a class="footer__link" href="#">
               <img src="./images/Figma.svg" alt="Figma" />
             </a>
           </li>
-          <li>
-            <a href="#">
+          <li class="footer__item">
+            <a class="footer__link" href="#">
               <img src="./images/Twitter.svg" alt="Twitter" />
             </a>
           </li>
-          <li>
-            <a href="#">
+          <li class="footer__item">
+            <a class="footer__link" href="#">
               <img src="./images/Instagram.svg" alt="Instagram" />
             </a>
           </li>
