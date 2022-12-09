@@ -42,6 +42,32 @@ body {
   line-height: 1.5;
 }
 
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.container {
+  width: 1440px;
+  padding: 40px 270px;
+  border: 1px solid tomato;
+}
+
+.header {
+  Width: 1440px;
+  Padding: 0px 20px 0px 20px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+}
+
 .navigation__list {
   list-style: none;
 }
@@ -85,6 +111,11 @@ body {
   background: #edf7fa;
 }
 
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
 .post__title {
   font-weight: 600;
   font-size: 24px;
@@ -100,6 +131,17 @@ body {
 
 .post__link:hover {
   text-decoration: underline;
+}
+
+.post__list {
+  display: flex;
+  gap: 24px;
+}
+
+.post__item {
+  border: 2px dashed teal;
+  background-color: white;
+  width: 438px;
 }
 
 .article__title {

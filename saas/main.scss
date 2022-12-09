@@ -3,8 +3,11 @@
 @import './base/reset';
 @import './base/common';
 
+@import './components/container';
+
 @import './layouts/header';
 @import './layouts/hero';
 @import './layouts/post';
 @import './layouts/features';
 @import './layouts/footer';
+

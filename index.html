@@ -12,12 +12,18 @@
       href="https://fonts.googleapis.com/css2?family=Heebo&family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <!-- normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <!-- styles -->
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header class="header">
-      <nav class="header__nav">
+      <header class="header">
+        <div class="header-container">
+            <nav class="header__nav">
         <a class="header__link" href="./index.html">
           <img src="./images/Left.svg" alt="logo of John blog" />
         </a>
@@ -33,11 +39,13 @@
           </li>
         </ul>
       </nav>
+      </div>
     </header>
     <!-- hero section -->
     <main>
       <section class="hero">
-        <h1 class="hero__title">
+        <div class="container">
+          <h1 class="hero__title">
           Hi, I’m John! <br />
           Creative Technologist
         </h1>
@@ -53,11 +61,15 @@
             height="243"
           />
         </p>
+        </div>
       </section>
       <!-- recent post section -->
       <section class="post">
-        <h2 class="post__title">Recent Posts</h2>
+        <div class="container">
+          <div class="flex">
+            <h2 class="post__title">Recent Posts</h2>
         <a class="post__link" href="./blog.html">View all</a>
+          </div>
         <ul class="post__list list">
           <li class="post__item">
             <article class="article">
@@ -85,12 +97,17 @@
               </p>
             </article>
           </li>
+        </div>
       </section>
       <!-- featured works section -->
       <section class="features">
-        <h2 class="features__title" >Featured Work</h2>
+        <div class="container">
+          <div class="flex">
+            <h2 class="features__title" >Featured Work</h2>
         <a class="features__link" href="./blog.html">View all</a>
-        <ul class="features__list">
+          </div>
+          
+            <ul class="features__list list">
           <li class="features__item">
             <article class="features-article">
               <img src="./images/dashboards.jpg" alt="фото екрану комютера" />
@@ -118,11 +135,13 @@
             </article>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <!-- footer -->
     <footer class="footer">
-      <address class="footer__address">
+      <div class="container flex">
+        <address class="footer__address">
         <ul class="footer__list list">
           <li class="footer__item">
             <a class="footer__link" href="#">
@@ -142,6 +161,7 @@
         </ul>
       </address>
       <p>&copy; 2022 Your Name. All rights reserved.</p>
+      </div>
     </footer>
   </body>
 </html>

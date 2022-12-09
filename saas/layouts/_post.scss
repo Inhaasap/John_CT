@@ -2,6 +2,11 @@
   background: #edf7fa;
 }
 
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
 .post__title {
   font-weight: 600;
   font-size: 24px;
@@ -19,8 +24,17 @@
   text-decoration: underline;
 }
 
-.post__list{}
-.post__item{}
+.post__list{
+  display: flex;
+  gap: 24px;
+}
+
+.post__item{
+  border: 2px dashed teal;
+  background-color: white;
+  width: 438px;
+
+}
 
 .article__title {
   font-weight: 600;
